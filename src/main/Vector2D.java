@@ -2,7 +2,7 @@ package main;
 
 import java.util.Objects;
 
-public class Vector2D implements Vector {
+public class Vector2D implements Vector<Vector2D> {
     private final int a;
     private final int b;
 
