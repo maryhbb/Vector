@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Vactor.iml" filepath="$PROJECT_DIR$/Vactor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Vector.iml" filepath="$PROJECT_DIR$/Vector.iml" />
     </modules>
   </component>
 </project>
