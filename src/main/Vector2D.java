@@ -2,7 +2,7 @@ package main;
 
 import java.util.Objects;
 
-public class Vector2D {
+public class Vector2D implements Vector {
     private final int a;
     private final int b;
 
@@ -19,14 +19,17 @@ public class Vector2D {
         return b;
     }
 
+    @Override
     public Vector2D add(Vector2D that) {
         return new Vector2D(this.a + that.a, this.b + that.b);
     }
 
+    @Override
     public Vector2D dotProduct(Vector2D that) {
         return new Vector2D(this.a * that.a, this.b * that.b);
     }
 
+    @Override
     public Vector2D scale(int scalar) {
         return new Vector2D(this.a * scalar, this.b * scalar);
     }
