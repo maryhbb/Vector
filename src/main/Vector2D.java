@@ -11,7 +11,6 @@ public class Vector2D implements Vector<Vector2D> {
 
     @Override
     public Vector2D add(Vector2D that) {
-
         return new Vector2D(this.a + that.a, this.b + that.b);
     }
 
