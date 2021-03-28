@@ -11,18 +11,12 @@ public class Vector2D implements Vector<Vector2D> {
         this.b = b;
     }
 
-    public int getA() {
-        return a;
-    }
-
-    public int getB() {
-        return b;
-    }
-
     @Override
     public Vector2D add(Vector2D that) {
+
         return new Vector2D(this.a + that.a, this.b + that.b);
     }
+
 
     @Override
     public Vector2D dotProduct(Vector2D that) {
